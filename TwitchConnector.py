@@ -1,6 +1,6 @@
 import socket
 import re
-import regexCollection
+from TwitchConnectorV1 import regexCollection
 
 class Message:
     def __init__(self, raw, user, command, params, message):
